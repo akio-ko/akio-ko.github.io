@@ -1,0 +1,23 @@
+:root { color-scheme: light dark; }
+* { box-sizing: border-box; }
+body {
+  margin: 0 auto; padding: 24px 18px 60px; max-width: 720px;
+  font-family: -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Noto Sans JP", sans-serif;
+  line-height: 1.85; color: #1c1c1e; background: #fbfbfd;
+}
+@media (prefers-color-scheme: dark) { body { color: #f2f2f7; background: #14161a; } }
+header { border-bottom: 1px solid rgba(128,128,128,.3); padding-bottom: 14px; margin-bottom: 8px; }
+h1 { font-size: 1.6rem; margin: 0 0 6px; }
+h2 { font-size: 1.15rem; margin: 32px 0 6px; }
+h3 { font-size: 1rem; margin: 20px 0 4px; }
+p, li { font-size: .98rem; }
+a { color: #0a63c9; }
+@media (prefers-color-scheme: dark) { a { color: #6aa9ff; } }
+.lead { opacity: .75; margin-top: 0; }
+.card { display: block; padding: 14px 16px; margin: 10px 0; border: 1px solid rgba(128,128,128,.3);
+        border-radius: 12px; text-decoration: none; color: inherit; }
+.card:hover { background: rgba(128,128,128,.08); }
+.card b { display: block; font-size: 1.05rem; }
+.card span { opacity: .7; font-size: .9rem; }
+footer { margin-top: 48px; padding-top: 14px; border-top: 1px solid rgba(128,128,128,.3);
+         font-size: .85rem; opacity: .7; }
